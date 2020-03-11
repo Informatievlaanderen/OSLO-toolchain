@@ -1,6 +1,6 @@
 ---
 name: Overige
-about: Issue in vrij formaat
+about: Meld iets in een vrij formaat
 title: ''
 labels: ''
 assignees: ''

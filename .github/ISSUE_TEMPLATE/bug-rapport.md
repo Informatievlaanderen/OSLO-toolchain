@@ -1,6 +1,6 @@
 ---
 name: Bug rapport
-about: Issues template om een bug te rapporteren
+about: Rapporteer een bug
 title: ''
 labels: bug
 assignees: ''

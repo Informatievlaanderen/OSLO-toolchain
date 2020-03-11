@@ -1,6 +1,6 @@
 ---
 name: Voorstel
-about: Issue template voor nieuwe feature of verbetering
+about: Stel een nieuwe feature of een verbetering voor
 title: ''
 labels: enhancement
 assignees: ''
