@@ -1,12 +1,12 @@
 # Initiële bestanden in een thema repository
 
-Een thema repository bevat initieel een structuur van directories en bestanden op de `master` branch.
+Een thema repository bevat initieel een structuur van directories en bestanden op de master branch.
 Deze zijn overgenomen uit een template repository.
 
 Principe: _pas bestandsnamen en bestandsinhoud aan uw situatie aan. Voeg bestanden toe waar nodig._
 
 Als hint is elk variabel gegeven in de initiële bestandsnamen en bestandsinhoud aangeduid met het woord `mijn` of `Mijn` (al naargelang de voorgestelde hoofdletter / kleine letter voorkeur).
-Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repository root op de `master` branch aanpassen (er staat voorlopig `OSLOthema-mijnThema`).
+Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repository root aanpassen (er staat voorlopig `OSLOthema-mijnThema`).
 
 ## Overzicht initiële bestanden
 
@@ -31,8 +31,8 @@ Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repositor
 
 | Initieel bestand (of directory) | Beschrijving |
 |---------------------------------|--------------|
-| CHANGELOG | Overzicht van wijzigingen. Vul aan volgens voorbeeld. |
-| README.md | Wat bezoekers van de github repository op de frontpagina te zien krijgen. Vul aan volgens voorbeeld. |
+| CHANGELOG | Overzicht van wijzigingen. Vul aan volgens voorbeeld, op de master branch. |
+| README.md | Wat bezoekers van de github repository op de frontpagina te zien krijgen. Vul aan volgens voorbeeld, op de master branch. |
 | stakeholders.csv | Lijst met Auteurs, Editors en Medewerkers. Vul aan volgens voorbeeld. **Opgepast voor speciale karakters: bestand moet UTF-8 encoded zijn.** |
 | OSLO-MijnVocabularium-VOC.eap | Enterprise Architect bestand voor een vocabularium. Zie *Enterprise Architect bestanden* lager. |
 | OSLO-MijnApplicatieprofiel-AP.eap | Enterprise Architect bestand voor een applicatieprofiel. Zie *Enterprise Architect bestanden* lager. |
