@@ -1,19 +1,9 @@
 # OSLO toolchain interne documentatie
 
-## Introductie
-Deze documentatie zou OSLO kernmedewerkers moeten in staat stellen de installatie van de OSLO toolchain te herhalen.
-De volgende indeling is indicatief TODO.
+## Inhoud
+- [Toolchain configuratie](toolchain-configuratie.md)
+- [Toolchain flow](doc-internal/toolchain-flow.md)
+- [Hoe een OSLO thema repo aan te maken](maak-thema-repo.md)
 
-## Configuratie van de toolchain op Data.Vlaanderen.be
-TODO
-
-## Afhankelijkheden per toolchain versie
-
-### v2.0
-**Docker images**
-
-TODO
-
-**Onderliggende componenten**
-
-TODO
+## Externe links
+- [CircleCI](https://circleci.com/gh/Informatievlaanderen/Data.Vlaanderen.be)

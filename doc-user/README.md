@@ -7,5 +7,5 @@
 - [Configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md)
 - [Versiecontrole in de thema repository](thema-repo-versiecontrole.md)
 
-## Externe referenties
+## Externe links
 - [Modelleringsregels](https://github.com/Informatievlaanderen/OSLO-handleiding/blob/master/Modellering/OSLO-Modelleringsregels.pdf)

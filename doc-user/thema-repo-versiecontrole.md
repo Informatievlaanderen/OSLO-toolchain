@@ -15,9 +15,10 @@ Maak tags aan met volgende naamgeving:
 ```
 [{documentnaam}-]{status}-{datum}-{suffix}
 ```
+
 waarin:
 
-| Veld | Duiding | Formaat |
+| Veld | Beschrijving | Formaat |
 |------|---------|---------|
 | `{documentnaam}` | Optionele term, enkel nodig als niet alle documenten in de repo tegelijk HIER VERDER WERKEN | kleine letters, geen spaties |
 | `{status}` | | |
