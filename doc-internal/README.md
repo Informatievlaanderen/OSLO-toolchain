@@ -2,7 +2,7 @@
 
 ## Inhoud
 - [Toolchain configuratie](toolchain-configuratie.md)
-- [Toolchain flow](doc-internal/toolchain-flow.md)
+- [Toolchain flow](toolchain-flow.md)
 - [Hoe een OSLO thema repo aan te maken](maak-thema-repo.md)
 
 ## Externe links

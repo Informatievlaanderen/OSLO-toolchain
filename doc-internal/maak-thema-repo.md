@@ -20,7 +20,7 @@ waarin:
 
 | Veld | Beschrijving | Formaat |
 |------|--------------|---------|
-| `{trajectnaam}` | Representatieve naam voor het ontwikkelingstraject | camelCase |
+| `{trajectnaam}` | Representatieve naam voor het ontwikkelingstraject | camelCase, startend met kleine letter, alleen alfanumerische tekens |
 
 Voorbeeld:
 
