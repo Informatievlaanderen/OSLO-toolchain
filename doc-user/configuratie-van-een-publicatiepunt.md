@@ -44,18 +44,18 @@ Velden:
 
 | Veld | Beschrijving | Van toepassing op |
 |------|--------------|-------------------|
-| name | Naam van de publicatie, uniek binnen dit JSON bestand | voc, ap |
+| name | Naam van de publicatie, uniek binnen dit JSON bestand. | voc, ap |
 | type | `voc` of `ap`; geeft aan of deze publicatie een vocabularium of een applicatieprofiel betreft. | voc, ap |
 | prefix | Als de baseURI van een vocabularium van de (normale) vorm `https://data.vlaanderen.be/ns/{namespace}#` is, verwijder dit veld.<br>Als de baseURI van een vocabularium van de vorm `https://data.vlaanderen.be/ns/{path}/{namespace}#` is, vul dan hier `{path]` in. | voc |
 | eap | Naam van het Enterprise Architect (EA) bestand dat het UML model bevat. Locatie: repository root. | voc, ap |
 | diagram | Naam van het diagram in het EA bestand waaruit de specificatie moet worden gehaald. | voc, ap |
 | template | Naam van het template bestand dat de tekstuele fragmenten van de specificatie bevat. Locatie: **template** directory onder de repository root. | voc, ap |
-| title | Titel van de publicatie | voc, ap |
+| title | Titel van de publicatie. | voc, ap |
 | publication-state | Status van de publicatie, een **id** uit [deze codelijst](https://data.vlaanderen.be/doc/conceptscheme/StandaardStatus). | voc, ap |
-| publication-date | Datum van publicatie, in xsd:date formaat (YYYY-MM-DD) | voc, ap |
-| license | Link naar de van toepassing zijnde licentie | voc, ap |
+| publication-date | Datum van publicatie, in xsd:date formaat (YYYY-MM-DD). | voc, ap |
+| license | Link naar de van toepassing zijnde licentie. | voc, ap |
 | contributors-file | Naam van het bestand dat de medewerkers aan de specificatie bevat. Locatie: repository root. | voc, ap |
-| contributors-column | Naam van de kolom die van toepassing is in dit bestand  | voc, ap |
+| contributors-column | Naam van de te gebruiken kolom in dit bestand. | voc, ap |
 | site | Pad van extra bestanden (zoals overview.jpg), die aan de specificatie moeten worden toegevoegd. Relatief aan de repository root. | ap |
 | feedbackurl | URL van de locatie te gebruiken om feedback op deze specificatie te geven: de issues locatie van de OSLO thema repository. | voc, ap |
 | standaardregisterurl | URL van het OSLO standaardregister, of van de locatie in dit register, waar deze publicatie vermeld wordt. | voc, ap |
@@ -106,7 +106,7 @@ Voorbeeld (bestand met één applicatieprofiel):
 ## JSON bestand in de centrale repository
 
 Afhankelijk van de toolchain versie, kan dit gaan over één enkel bestand met naam `publication.json` of over meerdere bestanden.
-Voor de mogelijkheid met meerdere bestanden zie TODO.
+Voor de mogelijkheid met meerdere bestanden zie [lager](#meerdere-json-bestanden-in-de-oslo-thema-repository).
 
 De locatie van dit bestand (of deze bestanden) is de **config** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
 De **branch** in deze repository bepaalt het domein waarop de publicaties zich zullen bevinden, volgens volgende tabel:
@@ -151,8 +151,8 @@ Velden:
 | name | Naam van de publicatie. Bepaalt welke entry in het JSON configuratiebestand in de OSLO thema repository wordt geselecteerd: deze met een identieke waarde in het **name** veld aldaar. |
 | filename | Pad vanaf de repository root + bestandsnaam van het JSON configuratiebestand in de OSLO thema repository. |
 | navigation | Object met navigatie gegevens. Voeg altijd toe, zelfs indien leeg. |
-| next | Optioneel veld in navigation: relatieve URL naar de versie die aangeduid wordt als volgende ten opzichte van deze versie van de publicatie.<br>Moet overeen komen met het veld **urlref** van een ander element met geversioneerde URL. |
-| previous | Optioneel veld in navigation: relatieve URL naar de versie die aangeduid wordt als vorige ten opzichte van deze versie van de publicatie.<br>Moet overeen komen met het veld **urlref** van een ander element met geversioneerde URL. |
+| next | Optioneel veld in navigation: relatieve URL naar de versie die gesteld wordt als volgende ten opzichte van deze versie van de publicatie.<br>Moet overeen komen met het veld **urlref** van een ander publicatiepunt met geversioneerde URL. |
+| previous | Optioneel veld in navigation: relatieve URL naar de versie die gesteld wordt als vorige ten opzichte van deze versie van de publicatie.<br>Moet overeen komen met het veld **urlref** van een ander publicatiepunt met geversioneerde URL. |
 
 Voor het veld **urlref** geldt volgend formaat:
 ```
@@ -163,10 +163,10 @@ waarin:
 
 | Veld | Beschrijving | Formaat |
 |------|--------------|---------|
-| `{documenttype}` | Geeft het type document aan | `vocabularium` of `applicatieprofiel` of `implementatiemodel` | 
-| `{documentnaam}` | Symbolische naam van het document | kleine letters, spaties vervangen door `-` | 
+| `{documenttype}` | Geeft het type document aan. | `vocabularium` of `applicatieprofiel` of `implementatiemodel` | 
+| `{documentnaam}` | Symbolische naam van het document. | kleine letters, spaties vervangen door `-` | 
 | `{status}` | Label uit deze [status codelijst](https://data.vlaanderen.be/doc/conceptscheme/StandaardStatus), overeenstemmend met het veld **publication-state** in de gekozen entry in het JSON configuratiebestand in de OSLO thema repository. | kleine letters, spaties verwijderd | 
-| `{datum}` | Datum van publicatie, in principe gelijk aan de waarde van het veld **publication-date** in de gekozen entry in het JSON configuratiebestand in de OSLO thema repository | xsd:date formaat (YYYY-MM-DD) | 
+| `{datum}` | Datum van publicatie, in principe gelijk aan de waarde van het veld **publication-date** in de gekozen entry in het JSON configuratiebestand in de OSLO thema repository. | xsd:date formaat (YYYY-MM-DD) | 
 
 Voorbeeld:
 ```
@@ -185,7 +185,7 @@ Voorbeeld:
 
 ### Geval 2: met versieloze URL
 
-Eén publicaties gemaakt met een geversioneerde, persistente URL wordt gedupliceerd op een versieloze URL, om zo een URL van de verondersteld geldende versie te kunnen communiceren.
+Eén publicatie gemaakt met een geversioneerde, persistente URL wordt gedupliceerd op een versieloze URL, om zo een URL van de verondersteld geldende versie te kunnen communiceren.
 
 Voor vocabularia is dit tevens van belang omdat via die versieloze URL de URI's in het vocabularium kunnen gederefereerd worden.
 
@@ -282,3 +282,7 @@ en is gedupliceerd op (relatieve) URL `/ns/mandaat`.
 ### Uitbreiding op geval 1: met afhankelijkheden naar andere publicatiepunten
 
 TODO
+
+## Meerdere JSON bestanden in de OSLO thema repository
+
+TODO (Dit is nog niet geïmplementeerd in de toolchain)
