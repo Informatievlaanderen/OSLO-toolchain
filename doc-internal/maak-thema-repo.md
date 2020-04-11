@@ -6,7 +6,7 @@ Make een nieuwe repo aan onder https://github.com/Informatievlaanderen. Naamgevi
 
 Baseer de repo op de **template** https://github.com/Informatievlaanderen/OSLOthema-template.
 
-Geef **write** access aan de github account van aangestelde editors.
+Geef **write** access aan de github accounts van aangestelde editors.
 
 Informeer editors over de repo URL en geef link mee naar de [gebruikersdocumentatie](/doc-user/README.md). 
 
