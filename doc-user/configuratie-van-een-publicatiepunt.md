@@ -49,9 +49,9 @@ Velden:
 | prefix | Als de baseURI van een vocabularium van de (normale) vorm `https://data.vlaanderen.be/ns/{namespace}#` is, verwijder dit veld.<br>Als de baseURI van een vocabularium van de vorm `https://data.vlaanderen.be/ns/{path}/{namespace}#` is, vul dan hier `{path]` in. | voc |
 | eap | Naam van het Enterprise Architect (EA) bestand dat het UML model bevat. Locatie: repository root. | voc, ap |
 | diagram | Naam van het diagram in het EA bestand waaruit de specificatie moet worden gehaald. | voc, ap |
-| template | Naam van het template bestand dat de tekstuele fragmenten van de specificatie bevat. Locatie: template directory onder de repository root. | voc, ap |
+| template | Naam van het template bestand dat de tekstuele fragmenten van de specificatie bevat. Locatie: **template** directory onder de repository root. | voc, ap |
 | title | Titel van de publicatie | voc, ap |
-| publication-state | Status van de publicatie, een id uit [deze codelijst](https://data.vlaanderen.be/doc/conceptscheme/StandaardStatus). | voc, ap |
+| publication-state | Status van de publicatie, een **id** uit [deze codelijst](https://data.vlaanderen.be/doc/conceptscheme/StandaardStatus). | voc, ap |
 | publication-date | Datum van publicatie, in xsd:date formaat (YYYY-MM-DD) | voc, ap |
 | license | Link naar de van toepassing zijnde licentie | voc, ap |
 | contributors-file | Naam van het bestand dat de medewerkers aan de specificatie bevat. Locatie: repository root. | voc, ap |
