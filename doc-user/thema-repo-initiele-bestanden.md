@@ -1,6 +1,6 @@
-# Initiële bestanden in een thema repository
+# Initiële bestanden in een OSLO thema repository
 
-Een thema repository bevat initieel een structuur van directories en bestanden op de master branch.
+Een OSLO thema repository bevat initieel een structuur van directories en bestanden op de master branch.
 Deze zijn overgenomen uit een template repository.
 
 Principe: _pas bestandsnamen en bestandsinhoud aan uw situatie aan. Voeg bestanden toe waar nodig._
@@ -36,8 +36,8 @@ Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repositor
 | stakeholders.csv | Lijst met Auteurs, Editors en Medewerkers. Vul aan volgens voorbeeld. **Opgepast voor speciale karakters: bestand moet UTF-8 encoded zijn.** |
 | OSLO-MijnVocabularium-VOC.eap | Enterprise Architect bestand voor een vocabularium. Zie *Enterprise Architect bestanden* lager. |
 | OSLO-MijnApplicatieprofiel-AP.eap | Enterprise Architect bestand voor een applicatieprofiel. Zie *Enterprise Architect bestanden* lager. |
-| config/mijn-vocabularium-voc.json | Configuratiebestand voor een vocabularium. Pas inhoud aan in lijn met voorbeeld. |
-| config/mijn-applicatieprofiel-ap.json | Configuratiebestand voor een applicatieprofiel. Pas inhoud aan in lijn met voorbeeld. |
+| config/mijn-vocabularium-voc.json | Configuratiebestand voor een vocabularium. Zie [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md). |
+| config/mijn-applicatieprofiel-ap.json | Configuratiebestand voor een applicatieprofiel. Zie [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md). |
 | resources | Directory voor allerlei resources. Voeg in een vrije structuur hier bestanden toe die nuttig zijn voor of aan bod komen tijdens de thematische werkgroepen. |
 | site-skeleton/mijn-applicatieprofiel-ap/overview.jpg | Diagram voor het applicatieprofiel. JPEG bestand bekomen via copy/paste uit het diagram in het overeenkomstig Enterprise Architect bestand. |
 | templates/mijn-vocabularium-voc.j2 | Template bestand voor het tekstgedeelte van de specificatie van een vocabularium. Vul aan.|
