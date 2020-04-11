@@ -17,7 +17,7 @@ Dit JSON bestand bevat URL-gerelateerde specificaties en de nodige coördinaten 
 
 Dit bestand bevat een JSON array. Hierdoor is het in principe mogelijk meerdere configuraties in één bestand vast te leggen,
 bijvoorbeeld voor een vocabularium en een applicatieprofiel die samen in één OSLO thema repository zitten.
-Meerdere bestanden met elk een array bestaande uit één element kan uiteraard ook.
+Meerdere bestanden met elk een array bestaande uit één element kunnen uiteraard ook.
 
 Formaat (één element uit de array):
 ```
