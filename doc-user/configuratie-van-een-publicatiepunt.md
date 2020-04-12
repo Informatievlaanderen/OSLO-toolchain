@@ -113,10 +113,10 @@ De **branch** in deze repository bepaalt het domein waarop de publicaties zich z
 
 | Branch | Domein | Bedoeling |
 |--------|--------|-----------|
-| `production` | https://data.vlaanderen.be | Uiteindelijke plaats voor alle officiële publicaties. |
+| `production` | https://data.vlaanderen.be | **Enkel voor OSLO medewerkers** Uiteindelijke plaats voor alle officiële publicaties. |
 | `test` | https://test.data.vlaanderen.be | Tijdelijke plaats om nieuwe publicaties voor te bereiden. |
-| `dev` | https://dev.data.vlaanderen.be | Niet relevant voor eindgebruikers; plaats om ontwikkelingen aan de toolchain uit te testen. |
-| `test-feature-checkout` | https://otl-test.data.vlaanderen.be | Niet relevant voor eindgebruikers; binnenkort buiten dienst. |
+| `dev` | https://dev.data.vlaanderen.be | **Enkel voor OSLO medewerkers** Plaats om ontwikkelingen aan de toolchain uit te testen. |
+| `test-feature-checkout` | https://otl-test.data.vlaanderen.be | **Enkel voor OSLO medewerkers** Binnenkort buiten dienst. |
 
 ### Geval 1: met geversioneerde URL
 

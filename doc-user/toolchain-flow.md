@@ -9,6 +9,8 @@ Mogelijk nut is het nakijken van rapporten tijdens het troubleshooten of het ver
 Voor elke wijziging aan een publicatiepunt vermeld in een **JSON bestand in de centrale repository** op een bepaalde branch, zoals beschreven in [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md),
 wordt output gegenereerd op de gelijknamige branch in https://github.com/Informatievlaanderen/OSLO-Generated.
 
+Dit proces kan overigens voor wie toegang heeft gevolgd worden op [CircleCI](https://circleci.com/gh/Informatievlaanderen/Data.Vlaanderen.be).
+
 De output bestaat uit een rapport en de te publiceren bestanden.
 - Het rapport is te vinden in directory `report/{pad}` (bestand met extensie .report).
 - De te publiceren bestanden zijn te vinden in directory `{pad}`. Deze worden enkel gemaakt als het proces goed afloopt (zie het rapport).
