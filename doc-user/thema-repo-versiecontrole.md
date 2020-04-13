@@ -66,23 +66,21 @@ statusMnemonic:
 
 Normaal gezien zijn opeenvolgende statussen van een OSLO specificatie Ontwerp Standaard, Kandidaat Standaard, Erkende Standaard, ... eventueel gevolgd door een nieuwe cylus Ontwerp Standaard, ...
 Als de opeenvolgende publicaties in chronologische volgorde gebeuren, is geen nood aan branches.
-Alles kan gedaan worden met opeenvolgende wijzigingen op één enkele branch, doorgaans `master`.
+Alles kan gedaan worden met opeenvolgende wijzigingen op één enkele branch, de **master** branch.
 
-Vandaar een eerste advies: tenzij anders nodig, werk op de `master`.
+Er zijn nochtans omstandigheden waarin het gebruik van een **extra branch** gewenst of nodig is:
 
-Er zijn nochtans omstandigheden waarin het gebruik van een extra **branch** nodig is.
-
-Een eerste geval betreft de noodzaak om een wijziging ("fix") te doen aan een publicatie die ondertussen niet meer de laatste versie is op de `master` branch.
-Aan dit geval wordt hieronder in sectie [Branches in geval van fixes](#branches-in-geval-van-fixes) speciale aandacht gegeven.
-
-Als tweede geval onderscheiden we de gangbare praktijk om op een 'zijspoor' verder te werken aan een afzonderlijke ontwikkeling.
-Deze kan later eventueel teruggemergd worden naar de `master` branch.
+- Editors kunnen desgewenst zonder de ontwikkelingen op de master branch te storen, bepaalde experimenten of alternatieven uitwerken op elke willekeurige branch.
+Deze kan later eventueel teruggemergd worden naar de master branch.
 Hierbij dient opgemerkt te worden dat de cruciale Enterprise Architect modelbestanden binaire bestanden zijn, die niet kunnen gemerged worden.
-Op dit geval gaan we niet verder in dan dit advies voor de naamgeving: gebruik een naamgeving voor eventuele branches die afwijkt van deze hieronder voorgesteld voor branches in geval van postfixes.
+- Het moet mogelijk zijn om aan een publicatie die ondertussen niet meer de laatste versie is op de `master` branch,
+kleine editoriale wijzigingen of 'fixes' te doen.
+Dit wordt behandeld in sectie [Branches in geval van fixes](#branches-in-geval-van-fixes), waar ook een specifieke naamgeving wordt voorop gezet. 
 
-Nog een algemeen advies: documenteer in de README.md onder de root van de thema repository en op de `master` branch de verschillende branches en de reden van hun bestaan.
-Dit is nodig omwille van de beperkte ondersteuning van versiebomen in github.
-In de README.md template is een tabel voorzien voor deze documentatie.
+Algemen adviezen:
+- **Tenzij anders nodig, werk op de master branch.**
+- **Voor willekeurige branches, gebruik een afwijkende naamgeving ten opzichte van branches voor fixes. Documenteer deze branches in de README.md onder de root van de thema repository en op de master branch.**
+
 
 ### Branches in geval van fixes
 

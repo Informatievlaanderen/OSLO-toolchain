@@ -66,7 +66,7 @@ Voorbeeld (bestand met één vocabularium, zonder prefix):
 {
   "name": "mijn-vocabularium-voc",
   "type": "voc",
-  "eap": "OSLO-MijnVocabularium-VOC.eap",
+  "eap": "MijnVocabularium-VOC.eap",
   "diagram": "OSLO-MijnVocabularium",
   "template": "mijn-vocabularium-voc.j2",
   "title": "Mijn Vocabularium",
@@ -87,8 +87,8 @@ Voorbeeld (bestand met één applicatieprofiel):
 {
   "name": "mijn-applicatieprofiel-ap",
   "type": "ap",
-  "eap": "OSLO-MijnApplicatieprofiel-AP.eap",
-  "diagram": "OSLO-MijnApplicatieprofiel",
+  "eap": "MijnApplicatieprofiel-AP.eap",
+  "diagram": "MijnApplicatieprofiel",
   "template": "mijn-applicatieprofiel-ap.j2",
   "title": "Mijn Applicatieprofiel",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
