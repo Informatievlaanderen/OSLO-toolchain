@@ -94,7 +94,7 @@ Maak in dit geval een branch aan vertrekkend uit de tag verbonden aan de oorspro
 
 Naamgeving:
 ```
-fix-after-{tagNaam}
+fixes-{tagNaam}
 ```
 
 waarin:
@@ -104,10 +104,41 @@ waarin:
 | `{tagNaam}` | Naam van de tag waaruit de branch vertrekt. |
 
 Voorbeeld
-- `fix-after-kandidaat-2020-03-31`: branch waarop een fix werd gedaan aan de publicatie verbonden aan tag `kandidaat-2020-03-31`.
+- `fixes-kandidaat-2020-03-31`: branch waarop een of meerdere fixes werden gedaan aan de publicatie verbonden aan tag `kandidaat-2020-03-31`.
 
 ## Praktische voorbeelden
 
-TODO
+In de volgende voorbeelden is de volgorde van commits in de tijd alfabetisch voorgesteld.
+
+### Voorbeeld 1: publicaties in chronologische volgorde
+
+In figuur 1 bevinden zich alle commits op de master branch. Commits **b**, **d**, **f** en **h** kregen een tag die gebruikt wordt in de configuratie van de respectievelijke publicatie in de centrale repository.
+
+![Chrologische publicaties](thema-repo-versiecontrole-fig1.jpg)
+
+*Figuur 1*
+
+### Voorbeeld 2 : fixes
+
+Figuur 2 illustreert volgend scenario:
+op een tijdstip na de erkenning van een standaard blijkt een editoriale wijzing nodig aan de gepubliceerde Kandidaat Standaard van 2020-04-03 en ook aan de gepubliceerde Erkende Standaard van 2020-05-04.
+
+Voor de Kandidaat Standaard is een branch nodig, omdat de versie met tag *kandidaat-2020-04-03* niet meer de laatste is op de master branch.
+Hiervoor wordt de branch **fixes-kandidaat-2020-04-03** in het leven geroepen en commit **j** krijgt een tag **kandidaat-2020-04-03-1**.
+De configuratie van de publicatie van deze Kandidaat Standaard in de centrale repository wordt aangepast, zodat ze naar deze nieuwe tag verwijst.
+
+Een gelijkaardige redenering geldt voor de getoonde Erkende Standaard. Merk op dat, mocht commit **i** niet hebben bestaan, er in dit geval nog geen nieuwe branch nodig zou geweest zijn.
+
+![Fixes 1](thema-repo-versiecontrole-fig2.jpg)
+
+*Figuur 2*
+
+Figuur 3 toont een volgende reeks van editoriale wijzigingen (commits **m** en **n**).
+Het is niet nodig om, eens een fixes branch bestaat, er nog een nieuwe in het leven te roepen voor volgende fixes aan dezelfde publicatie.
+
+![Fixes 2](thema-repo-versiecontrole-fig3.jpg)
+
+*Figuur 3*
+
 
 
