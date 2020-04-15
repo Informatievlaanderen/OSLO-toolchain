@@ -29,8 +29,6 @@ Beter is om expliciet een **tag** toe te kennen, volgens een afgesproken naamgev
 
 Principe: **_ken één tag toe per publicatiepunt_**.
 
-Op github maak je op een eenvoudige manier een tag aan door een *release* aan te maken. Kies dezelfde naam voor release en tag.
-
 Naamgeving voor tags:
 ```
 [{documentMnemonic}-]{statusMnemonic}-{datum}[-{suffix}]
@@ -62,6 +60,14 @@ statusMnemonic:
 - `kandidaat-2020-03-31-1`: zoals hierboven, nadat de volgende dag een typo werd gecorrigeerd
 - `apPerceel-erkend-2020-04-30`: bron voor publicatie op 2020-04-30 als Erkende Standaard, enkel voor het applicatieprofiel Perceel
 
+## Praktisch
+Op github maak je op een eenvoudige manier een tag aan door een *release* aan te maken. Kies dezelfde naam voor release en tag.
+
+Voorbeeld:
+
+![Release](thema-repo-versiecontrole-release.jpg)
+
+
 ## Branches
 
 Normaal gezien zijn opeenvolgende statussen van een OSLO specificatie Ontwerp Standaard, Kandidaat Standaard, Erkende Standaard, ... eventueel gevolgd door een nieuwe cylus Ontwerp Standaard, ...
@@ -77,7 +83,7 @@ Hierbij dient opgemerkt te worden dat de cruciale Enterprise Architect modelbest
 kleine editoriale wijzigingen of 'fixes' te doen.
 Dit wordt behandeld in sectie [Branches in geval van fixes](#branches-in-geval-van-fixes), waar ook een specifieke naamgeving wordt voorop gezet. 
 
-Algemen adviezen:
+Algemene adviezen:
 - **Tenzij anders nodig, werk op de master branch.**
 - **Voor willekeurige branches, gebruik een afwijkende naamgeving ten opzichte van branches voor fixes. Documenteer deze branches in de README.md onder de root van de thema repository en op de master branch.**
 
