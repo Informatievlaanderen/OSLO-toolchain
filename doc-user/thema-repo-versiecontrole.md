@@ -21,11 +21,9 @@ De sectie [Praktische voorbeelden](#praktische-voorbeelden) illustreert de vooro
 
 ## Tags
 
-
 Om publicaties te allen tijde te kunnen reconstrueren is het van belang die commit uniek te kunnen identificeren.
 Dat kan in principe door de *commit hash* te gebruiken, maar dat is niet echt transparant.
 Beter is om expliciet een **tag** toe te kennen, volgens een afgesproken naamgeving, zodat het verband publicatie vs. tag onmiddellijk afleesbaar is.
-
 
 Principe: **_ken één tag toe per publicatiepunt_**.
 
@@ -61,12 +59,7 @@ statusMnemonic:
 - `apPerceel-erkend-2020-04-30`: bron voor publicatie op 2020-04-30 als Erkende Standaard, enkel voor het applicatieprofiel Perceel
 
 ## Praktisch
-Op github maak je op een eenvoudige manier een tag aan door een *release* aan te maken. Kies dezelfde naam voor release en tag.
-
-Voorbeeld:
-
-![Release](thema-repo-versiecontrole-release.jpg)
-
+[Een release maken op Github](git-github.md#een-release-maken-op-github)
 
 ## Branches
 
