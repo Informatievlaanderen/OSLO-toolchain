@@ -26,7 +26,8 @@ Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repositor
 │       └── overview.jpg
 └── templates
     ├── mijn-vocabularium-voc.j2
-    └── mijn-applicatieprofiel-ap.j2
+    ├── mijn-applicatieprofiel-ap.j2
+    └── mijn-implementatiemodel-im.j2
 ```
 
 | Initieel bestand (of directory) | Beschrijving |
@@ -38,10 +39,12 @@ Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repositor
 | MijnApplicatieprofiel-AP.eap | Enterprise Architect bestand voor een applicatieprofiel. Zie *Enterprise Architect bestanden* lager. |
 | config/mijn-vocabularium-voc.json | Configuratiebestand voor een vocabularium. Zie [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md). |
 | config/mijn-applicatieprofiel-ap.json | Configuratiebestand voor een applicatieprofiel. Zie [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md). |
+| config/mijn-applicatieprofiel-ap.json | Configuratiebestand voor een applicatieprofiel. Zie [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md). |
 | resources | Directory voor allerlei resources. Voeg in een vrije structuur hier bestanden toe die nuttig zijn voor of aan bod komen tijdens de thematische werkgroepen. |
 | site-skeleton/mijn-applicatieprofiel-ap/overview.jpg | Diagram voor het applicatieprofiel. JPEG bestand bekomen via copy/paste uit het diagram in het overeenkomstig Enterprise Architect bestand. |
 | templates/mijn-vocabularium-voc.j2 | Template bestand voor het tekstgedeelte van de specificatie van een vocabularium. Vul aan.|
 | templates/mijn-applicatieprofiel-ap.j2 | Template bestand voor het tekstgedeelte van de specificatie van een applicatieprofiel. Vul aan. |
+| templates/mijn-implementatiemodel-im.j2 | Ter info: zoals templates/mijn-applicatieprofiel-ap.j2, maar voor een implementatiemodel. Vul aan. |
 
 ## Enterprise Architect bestanden
 
