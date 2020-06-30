@@ -147,7 +147,7 @@ Velden:
 | disabled | Optioneel veld: voeg toe met waarde `true` om te verhinderen dat de toolchain de publicatie bouwt. Bedoeld om andere publicaties te kunnen bouwen als de publicatie in kwestie niet kan gebouwd worden wegens fouten. |
 | urlref | Relatieve URL (= URL zonder domein) waarop de publicatie te consulteren zal zijn. |
 | repository | URL van de OSLO thema repository. |
-| branchtag | Branch, commit hash of tag: selecteert de commit in de OSLO thema repository waarin zich de bedoelde versie van de bronbestanden voor deze publicatie bevinden. **Hint: gebruik omwille van de duidelijkheid altijd een tag eenmaal een publicatiepunt stabiel is**. Zie [versiecontrole](thema-repo-versiecontrole.md). |
+| branchtag | Git branch naam, git commit hash of git tag: bepaalt welke versie van de bronbestanden in de OSLO thema repository gelezen worden om deze publicatie te maken.<br/> **Hint: Met een git branch naam is de bepaling van de versie van de bronbestanden niet deterministisch, wat bij het later opnieuw genereren van de publicatie voor afwijkende output of fouten kan zorgen; gebruik dit dus slechts tijdelijk tijdens ontwikkeling en vervang ten slotte altijd door een git commit hash of nog beter een git tag, die je eerst aanbracht op de OSLO thema repository (zie [versiecontrole](thema-repo-versiecontrole.md)).** |
 | name | Naam van de publicatie. Bepaalt welke entry in het JSON configuratiebestand in de OSLO thema repository wordt geselecteerd: deze met een identieke waarde in het **name** veld aldaar. |
 | filename | Pad vanaf de repository root + bestandsnaam van het JSON configuratiebestand in de OSLO thema repository. |
 | navigation | Object met navigatie gegevens. Voeg altijd toe, zelfs indien leeg. |
