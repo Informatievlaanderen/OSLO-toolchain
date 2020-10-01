@@ -189,6 +189,9 @@ Eén publicatie gemaakt met een geversioneerde, persistente URL wordt geduplicee
 
 Voor vocabularia is dit tevens van belang omdat via die versieloze URL de URI's in het vocabularium kunnen gederefereerd worden.
 
+**Opgelet:** zolang [deze issue](https://github.com/Informatievlaanderen/OSLO-toolchain/issues/68) open staat, pas [deze workaround](https://github.com/Informatievlaanderen/OSLO-toolchain/issues/68#issuecomment-701969630) toe.
+
+
 Formaat (één element uit de array):
 ```
 {
