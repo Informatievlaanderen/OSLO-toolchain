@@ -7,7 +7,7 @@ Mogelijk nut is het nakijken van rapporten tijdens het troubleshooten of het ver
 ## Van bronbestanden naar gegenereerde output bestanden
 
 Voor elke wijziging aan een publicatiepunt vermeld in een **JSON bestand in de centrale repository** op een bepaalde branch, zoals beschreven in [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md),
-wordt output gegenereerd op de gelijknamige branch in https://github.com/Informatievlaanderen/OSLO-Generated.
+wordt output gegenereerd op de gelijknamige branch in https://github.com/Informatievlaanderen/OSLO-Generated (later: https://github.com/Informatievlaanderen/data.vlaanderen.be-generated).
 
 Dit proces kan overigens voor wie toegang heeft gevolgd worden op [CircleCI](https://circleci.com/gh/Informatievlaanderen/Data.Vlaanderen.be).
 
