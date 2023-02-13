@@ -105,18 +105,16 @@ Voorbeeld (bestand met één applicatieprofiel):
 
 ## JSON bestand in de centrale repository
 
-Afhankelijk van de toolchain versie, kan dit gaan over één enkel bestand met naam `publication.json` of over meerdere bestanden.
-Voor de mogelijkheid met meerdere bestanden zie [lager](#meerdere-json-bestanden-in-de-oslo-thema-repository).
-
-De locatie van dit bestand (of deze bestanden) is de **config** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
+In de oorspronkelijke versie van de toolchain gaat dit over één bestand `publication.json`. De locatie van dit bestand is de **config** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
 De **branch** in deze repository bepaalt het domein waarop de publicaties zich zullen bevinden, volgens volgende tabel:
 
-| Branch | Domein | Bedoeling |
+| Branch | Domein van de publicatie | Bedoeling |
 |--------|--------|-----------|
 | `production` | https://data.vlaanderen.be | **Enkel voor OSLO medewerkers** Uiteindelijke plaats voor alle officiële publicaties. |
 | `test` | https://test.data.vlaanderen.be | Tijdelijke plaats om nieuwe publicaties voor te bereiden. |
 | `dev` | https://dev.data.vlaanderen.be | **Enkel voor OSLO medewerkers** Plaats om ontwikkelingen aan de toolchain uit te testen. |
-| `test-feature-checkout` | https://otl-test.data.vlaanderen.be | **Enkel voor OSLO medewerkers** Binnenkort buiten dienst. |
+
+In latere versies van de toolchain kunnen meerdere bestanden `*.publication.json` bestaan, praktisch gezien: één per thema. De bestanden moeten zich bevinden in de **config/branch** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>, op de branch volgens de tabel hierboven.
 
 ### Geval 1: met geversioneerde URL
 
@@ -285,7 +283,3 @@ en is gedupliceerd op (relatieve) URL `/ns/mandaat`.
 ### Uitbreiding op geval 1: met afhankelijkheden naar andere publicatiepunten
 
 TODO
-
-## Meerdere JSON bestanden in de OSLO thema repository
-
-TODO (Dit is nog niet geïmplementeerd in de toolchain)
