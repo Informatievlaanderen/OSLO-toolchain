@@ -31,7 +31,7 @@ een publicatiepunt gedefinieerd als volgt:
 
 De bronbestanden staan in `https://github.com/Informatievlaanderen/OSLOthema-besluitvorming`.
 
-De output komt terecht op de `test` branch in https://github.com/Informatievlaanderen/OSLO-Generated:
+De output komt terecht op de `test` branch in https://github.com/Informatievlaanderen/OSLO-Generated (later: https://github.com/Informatievlaanderen/data.vlaanderen.be-generated):
 - rapport in `report/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31` 
 - te publiceren bestanden in `report/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31` 
 
