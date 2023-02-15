@@ -105,16 +105,17 @@ Voorbeeld (bestand met één applicatieprofiel):
 
 ## JSON bestand in de centrale repository
 
-In de oorspronkelijke versie van de toolchain gaat dit over één bestand `publication.json`. De locatie van dit bestand is de **config** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
-De **branch** in deze repository bepaalt het domein waarop de publicaties zich zullen bevinden, volgens volgende tabel:
+In de oorspronkelijke versie van de toolchain gaat dit over één bestand `publication.json`. De locatie van dit bestand is de **config** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>, op een specifieke **branch**.
+In latere versies van de toolchain kunnen meerdere bestanden `*.publication.json` bestaan, praktisch gezien: één per thema. Deze bestanden moeten zich bevinden in de **config/\<branch\>** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
+
+De **branch** bepaalt het domein waarop de publicaties zich zullen bevinden, volgens deze tabel:
+
 
 | Branch | Domein van de publicatie | Bedoeling |
 |--------|--------|-----------|
 | `production` | https://data.vlaanderen.be | **Enkel voor OSLO medewerkers** Uiteindelijke plaats voor alle officiële publicaties. |
 | `test` | https://test.data.vlaanderen.be | Tijdelijke plaats om nieuwe publicaties voor te bereiden. |
 | `dev` | https://dev.data.vlaanderen.be | **Enkel voor OSLO medewerkers** Plaats om ontwikkelingen aan de toolchain uit te testen. |
-
-In latere versies van de toolchain kunnen meerdere bestanden `*.publication.json` bestaan, praktisch gezien: één per thema. De bestanden moeten zich bevinden in de **config/branch** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>, op de branch volgens de tabel hierboven.
 
 ### Geval 1: met geversioneerde URL
 
