@@ -7,7 +7,7 @@ Mogelijk nut is het nakijken van rapporten tijdens het troubleshooten of het ver
 ## Van bronbestanden naar gegenereerde output bestanden
 
 Voor elke wijziging aan een publicatiepunt vermeld in een **JSON bestand in de centrale repository** op een bepaalde branch, zoals beschreven in [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md),
-wordt output gegenereerd op de gelijknamige branch in https://github.com/Informatievlaanderen/OSLO-Generated (later: https://github.com/Informatievlaanderen/data.vlaanderen.be-generated).
+wordt output gegenereerd op de gelijknamige branch in https://github.com/Informatievlaanderen/data.vlaanderen.be-generated (voorheen: https://github.com/Informatievlaanderen/OSLO-Generated).
 
 Dit proces kan overigens voor wie toegang heeft gevolgd worden op [CircleCI](https://circleci.com/gh/Informatievlaanderen/Data.Vlaanderen.be).
 
@@ -31,7 +31,7 @@ een publicatiepunt gedefinieerd als volgt:
 
 De bronbestanden staan in `https://github.com/Informatievlaanderen/OSLOthema-besluitvorming`.
 
-De output komt terecht op de `test` branch in https://github.com/Informatievlaanderen/OSLO-Generated (later: https://github.com/Informatievlaanderen/data.vlaanderen.be-generated):
+De output komt terecht op de `test` branch in https://github.com/Informatievlaanderen/data.vlaanderen.be-generated (voorheen: https://github.com/Informatievlaanderen/OSLO-Generated):
 - rapport in `report/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31` 
 - te publiceren bestanden in `report/doc/vocabularium/besluitvorming/kandidaatstandaard/2020-03-31` 
 

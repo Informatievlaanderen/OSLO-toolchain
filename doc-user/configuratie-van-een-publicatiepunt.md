@@ -103,10 +103,12 @@ Voorbeeld (bestand met één applicatieprofiel):
 ]
 ```
 
-## JSON bestand in de centrale repository
+## Entry in een JSON bestand in de centrale repository
 
-In de oorspronkelijke versie van de toolchain gaat dit over één bestand `publication.json`. De locatie van dit bestand is de **config** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>, op een specifieke **branch**.
-In latere versies van de toolchain kunnen meerdere bestanden `*.publication.json` bestaan, praktisch gezien: één per thema. Deze bestanden moeten zich bevinden in de **config/\<branch\>** directory van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
+De entry hier besproken is een object in een array in een JSON bestand.
+Meerdere JSON bestanden kunnen bestaan en ze bevinden zich alle in de repo <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>, op een specifieke **branch**. Mogelijke paden:
+- **config/publication.json** (één groot bestand)
+- **config/\<branch\>/\*.publication.json** (één bestand per thema)
 
 De **branch** bepaalt het domein waarop de publicaties zich zullen bevinden, volgens deze tabel:
 

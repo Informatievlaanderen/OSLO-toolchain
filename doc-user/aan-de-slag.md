@@ -68,8 +68,8 @@ We komen later terug op dit taggen. Doe nu maar gewoon.
 Alle info over deze stap vind je in [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md),
 sectie **JSON bestand in de centrale repository**.
 
-Maak je publicatie aan voor raadpleging op <https://test.data.vlaanderen.be>.
-Voeg daarom een entry toe in de **config/test** directory op de **test** branch
+Maak je publicatie aan voor <https://test.data.vlaanderen.be>.
+Voeg daartoe een JSON bestand toe in de **config/test** directory op de **test** branch
 van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
 
 Verwijs naar je OSLO thema repository, de gemaakte tag, het config bestand, de naam gegeven aan de publicatie in dat config bestand en maak alle overige velden aan zoals gedocumenteerd.
