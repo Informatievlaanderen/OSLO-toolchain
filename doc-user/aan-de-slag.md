@@ -56,9 +56,9 @@ Let er goed op alle verwijzingen en ook de datum goed te zetten.
 Gedetailleerde info over deze stap vind je in [configuratie van een publicatiepunt](configuratie-van-een-publicatiepunt.md),
 sectie **JSON bestand in de OSLO thema repository**.
 
-## 7. Commit alles en maak een tag aan
+## 7. Push alles en maak een tag aan
 
-Commit nu zeker alles naar github en maak een tag aan van de vorm `ontwerp-YYYY-MM-DD`.
+Push nu zeker alles naar github en maak een tag aan van de vorm `ontwerp-YYYY-MM-DD`.
 We komen later terug op dit taggen. Doe nu maar gewoon.
 
 ## 8. Maak de centrale configuratie voor de publicatie aan
@@ -74,9 +74,11 @@ van <https://github.com/Informatievlaanderen/Data.Vlaanderen.be>.
 
 Verwijs naar je OSLO thema repository, de gemaakte tag, het config bestand, de naam gegeven aan de publicatie in dat config bestand en maak alle overige velden aan zoals gedocumenteerd.
 
-Commit de wijziging en de toolchain zal nu automatisch de publicatie aanmaken.
+Commit de wijziging en de toolchain zal nu automatisch de publicatie aanmaken. Je kan dit proces volgen op [CircleCI](https://app.circleci.com/pipelines/github/Informatievlaanderen/Data.Vlaanderen.be). Door te klikken op de juiste link onder de kolom "Workflow" kan je details bekijken over wat goed en eventueel fout loopt.
 
-Na verloop van tijd is de publicatie zichtbaar op <https://test.data.vlaanderen.be/{urlref}>.
+Als alles goed gaat, bevinden de gegenereerde bestanden voor de publicatie zich op <https://github.com/Informatievlaanderen/data.vlaanderen.be-generated/tree/test/{urlref}>.
+
+Een tijdje later zal de publicatie zichtbaar zijn op <https://test.data.vlaanderen.be/{urlref}>.
 
 Om een publicatie te maken op <https://data.vlaanderen.be>, heb je na deze stap een OSLO medewerker nodig.
 
