@@ -14,4 +14,5 @@
 - [Git en Github handelingen](git-github.md)
 
 ## Externe links
+- [Handleiding hergebruik](https://github.com/Informatievlaanderen/OSLO-handleiding/blob/master/EA%26Repo/HandleidingHergebruik/OSLO%20Handleiding%20hergebruik.pdf)
 - [Modelleringsregels](https://github.com/Informatievlaanderen/OSLO-handleiding/blob/master/Modellering/OSLO-Modelleringsregels.pdf)
